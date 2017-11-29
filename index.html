@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Piano Class</title>
+  <script src="src/model/Book.js"></script>
+  <link rel="icon" href="data/images/piano-256.png" type="image/png sizes="2x6">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+<nav class="navbar navbar-default">
+    <div>
+            <div class="navbar-header">
+               <p><a href="listBooks.html"><button type="button" class="btn btn-primary btn-success nav-bar-right">Login screen</button></a></p>
+                </div>
+    <ul class="nav navbar-nav">
+            
+    <li><p><a href="listBooks.html"><button type="button" class="btn btn-primary">List all books</button></a></p></li>
+    <li><p><a href="createBook.html"><button type="button" class="btn btn-primary bottom-right">Add a new book</button></a></p></li>
+    <li><p><a href="updateBook.html"><button type="button" class="btn btn-primary">Update a book</button></a></p></li>
+    <li><p><a href="deleteBook.html"><button type="button"  class="btn btn-primary">Delete a book</button></a></p></li>
+    <li><p><button type="button" onclick="Book.clearData()"  class="btn btn-primary">Clear database</button</p></li>
+    <li><p><button type="button" onclick="Book.createTestData()" class="btn btn-primary top-right">Create test data</button></p></li>
+
+    </ul>
+    </div>
+</nav>
+<br>
+<h1 class="top-right">Main screen</h1>
+<h2>Piano Class main screen</h2> 
+  
+</body>
+</html> 

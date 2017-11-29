@@ -1,0 +1,22 @@
+
+
+.button{
+    background-image:url("/data/images/grandpianoclassifiedsnew.gif");
+};
+
+body {
+    background-image: url("/data/images.PianoStrings.jpg");
+    color:blue;
+};
+
+body {
+    background-image: url("/data/images.PianoStrings.jpg"), url("paper.gif");
+    background-color: #cccccc;
+}
+
+
+#grad1 {
+    height: 200px;
+    background-color: #cccccc;
+    background-image: radial-gradient(red, yellow, green);
+}
