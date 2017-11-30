@@ -10,7 +10,6 @@ function Book(slots) {
   Book.instances = {}; 
 
 /*Loading all Book instances*/
-  
 
   /*Converting each row to an object*/
   Book.convertRow2Obj = function (bookRow) {

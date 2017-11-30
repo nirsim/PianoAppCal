@@ -1,3 +1,2 @@
 
-var pianoApp = angular.module("pianoApp",[])
-
+var app = angular.module("pianoApp",[]);

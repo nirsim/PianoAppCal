@@ -1,4 +1,4 @@
-pianoApp.controller("pianoCtrl", function($scope,$http,$location,converter) {
+app.controller("pianoCtrl", function($scope,$http,$location) {
     
     // student Constructor
     function student(fname, lname, level, phone, finance) {
@@ -9,5 +9,11 @@ pianoApp.controller("pianoCtrl", function($scope,$http,$location,converter) {
         this.finance = finance;
         
     };
+   // $scope.students = localStorage["bookTable"];
+    $scope.fname = localStorage["bookTable"];
+    
+
 })
+
+
 
