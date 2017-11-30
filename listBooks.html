@@ -6,18 +6,26 @@
   <script src="src/ctrl/initialize.js"></script>
   <script src="src/model/Book.js"></script>
   <script src="src/view/listBooks.js"></script>
-  <script>
-   window.addEventListener("load", pl.view.listBooks.setupUserInterface);
-  </script>
-   <link rel="stylesheet" href="style.css">
+  <script>window.addEventListener("load", pl.view.listBooks.setupUserInterface);</script>
+
+  <link rel="icon" href="data/images/piano-256.png" type="image/png sizes="2x6">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+   
    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body class="#grad1">
-  <h1>Public Library: List all books</h1>
-  <table id="books">
+  <h1>Piano class</h1>
+  <table id="books" class="table-striped table-bordered table-condensed table-hover table-responsive">
     <thead>
-        <tr>
-            <th>ISBN</th>
+        <tr class="bg-primary">
+            <th>Student</th>
             <th>Title</th>
             <th>Year</th>
         </tr>

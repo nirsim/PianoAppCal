@@ -1,5 +1,6 @@
 
 
+
 .button{
     background-image:url("/data/images/grandpianoclassifiedsnew.gif");
 };
@@ -20,3 +21,8 @@ body {
     background-color: #cccccc;
     background-image: radial-gradient(red, yellow, green);
 }
+
+
+/*table, th, td, thead{
+    border: 1px solid black;
+}*/

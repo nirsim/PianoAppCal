@@ -15,10 +15,10 @@ pl.view.createBook = {
     },
     handleSaveButtonClickEvent: function () {
       var formEl = document.forms['Book'];
-      var slots = { isbn: formEl.isbn.value, 
+      var slots = { student: formEl.student.value,
           title: formEl.title.value, 
           year: formEl.year.value};
-      Book.add( slots);
+      Book.add(slots);
       formEl.reset();
     }
   };

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>Piano Class</title>
@@ -12,17 +13,23 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script="src/app/pianoApp.js"></script>
+  <script="src/ctrl/pianoCtrl.js"></script>
 
 </head>
 
-<body>
-<nav class="navbar navbar-default">
+<body ng-app="pianoApp">
+
+<div ng-controller="pianoCtrl">
+
+
+<nav class="nav navbar-inverse">
     <div>
-            <div class="navbar-header">
+            <div class="navbar-header pull-right">
                <p><a href="listBooks.html"><button type="button" class="btn btn-primary btn-success nav-bar-right">Login screen</button></a></p>
                 </div>
-    <ul class="nav navbar-nav">
-            
+    <ul class="nav navbar-nav ">
+        
     <li><p><a href="listBooks.html"><button type="button" class="btn btn-primary">List all books</button></a></p></li>
     <li><p><a href="createBook.html"><button type="button" class="btn btn-primary bottom-right">Add a new book</button></a></p></li>
     <li><p><a href="updateBook.html"><button type="button" class="btn btn-primary">Update a book</button></a></p></li>
@@ -32,10 +39,15 @@
 
     </ul>
     </div>
+        
 </nav>
 <br>
 <h1 class="top-right">Main screen</h1>
 <h2>Piano Class main screen</h2> 
-  
+
+{{5+5}}
+
+</div>
+
 </body>
 </html> 
